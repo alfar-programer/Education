@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0; 
+   font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+body{
+    background-color: #3d3d3d;}
+
+header{
+    background-color: #4b4b4b;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+ }
+.logo{ 
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+
+} 
+.main a{
+    font-size: 20px;
+    padding-left: 30px;
+    text-decoration: none;
+    justify-content: space-between;
+    color:#aaa;
+}
+.main a:hover{
+    color:#00E77F;
+}
+.logo:hover{
+    color: aqua;
+}
+
+section{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:2rem;
+}
+
+.main2{
+
+   align-items: center;
+    text-transform: capitalize;
+    display: flex;
+    gap: 1.5rem;
+    
+}
+.name1{
+    margin-bottom: 20px;
+    color:white ;
+    line-height:1;
+    font-size: 6rem;
+}   
+span{
+    color:#00E77F; 
+}
+.contact{
+    
+    background-color: rgb(83, 77, 70);
+    color: white;
+    border-radius: 20px ;
+    font-size: 15px;
+    padding: 1.2rem 3rem;
+    transition: .7s ease;
+
+}
+.contact:hover{
+    background-color: #615a5a;
+    
+}
+.main3{
+    text-align: center;
+    align-items: center ;
+    flex: 1 1 40rem;
+}
+.imghome{
+    width: 100%;
+    flex: 1 1 40rem;
+}
+.box-contaner{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  
+}
+.box-contaner i{
+    shape-image-threshold: initial;
+    font-size: 50px;
+   
+    color: #00E77F;
+}
+.box1{
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    padding: 20px 40px;
+   
+    background-color: #4b4b4b;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    gap: 2rem;
+    margin-left: 30px;
+    transition: .5s ease;
+}
+.box2{
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    padding: 20px 40px;
+   
+    background-color: #4b4b4b;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    gap: 2rem;
+    margin-left: 30px;
+    transition: .5s ease;
+}
+.box3{
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    padding: 20px 40px;
+    background-color: #4b4b4b;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    gap: 2rem;
+    transition: .5s ease;
+    margin-left: 30px;
+}
+.box4{
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    padding: 20px 40px;
+   
+    background-color: #4b4b4b;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    gap: 2rem;
+    margin-left: 30px;
+    transition: .5s ease;
+}
+
+.boxx{
+    display: flex;
+
+
+
+}
+.boxxx{
+    display: flex;
+}
+.box i{
+     font-size: 60px;
+}
+.box-contaner .box1:hover{
+    transform: scale(1.1);
+    color: #00E77F;
+}
+.box-contaner .box2:hover{
+    transform: scale(1.1);
+    color: #00E77F;
+}
+
+.box-contaner .box3:hover{
+    transform: scale(1.1);
+    color: #00E77F;
+}
+
+.box-contaner .box4:hover{
+    transform: scale(1.1);
+    color: #00E77F;
+}
+.ssss{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.imgabout5{
+   width: 600px;
+}
+.ss h1{
+    margin-left: 50px;
+    
+    font-size: 40px;
+    text-transform: capitalize;
+    color: white;
+}
+.ss p{
+    font-size: medium;
+    color: #858484;
+}
+.pp{
+    margin: 10px;
+    padding-left: 85px;
+}
+.mmm{
+    background-color: rgb(83, 77, 70);
+    font-size:20px;
+    width: 100%;
+    margin-left:120px ;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+.ss .mmm:hover{
+    background-color: #00E77F;
+    transform: scale(1.1);
+}
+.three img{
+    width: 500px;
+    margin: 5px 30%;
+}
+
+.our-courses{
+    display: flex;
+    margin:10px 30%;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: white;
+}
+.courses .slide{
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    background-color: #4b4b4b; 
+    overflow: hidden;       
+}
+.swiper-wrapper img{
+    height: 20rem;
+    width: 100%;
+}
+.slide h2{
+    text-transform: capitalize ;
+    color:#fff;
+   margin-top: 1rem ;
+    font-size: 2rem;
+}
+
+.slide p{
+    line-height:2;
+    font-size: 1.2rem;
+    color: #aaa;
+}
+.title-for-teacher{
+    
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.teacher .slide img{
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+.teacher .slide{
+    user-select: none;
+    position: relative;
+    overflow: hidden;
+    margin-bottom:4rem;
+}
+.teacher .slide .share{
+    transition: .5s;
+    left: -10rem;
+    position:absolute;
+    top: 1REM;
+}
+.share a{
+    border-radius:5px;
+    display: block;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    color: #3d3d3d;
+    background-color: #fff;
+    margin-top: 10px;
+    width: 2.5rem ;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.teacher .slide:hover .share{
+    left: 1.5rem;
+   
+}
+.share a:hover{
+    background-color: #00E77F;
+    color: #fff;
+}
+.teacher .slide h2{
+    text-align: center;
+    font-size: 1.7rem;
+    color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(232, 225, 225);
+}
+::-webkit-scrollbar{
+    height:.3rem;
+    width: 1rem;
+ }
+ 
+ ::-webkit-scrollbar-track{
+    background-color: transparent;
+    
+ }
+ 
+ ::-webkit-scrollbar-thumb{
+    background-color: #00E77F;
+    border-radius: 5rem;
+ }
+.title3{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+ section h1 {
+    
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+ }
+
+ .logo{
+    
+  animation: hinge; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3s; /* don't forget to set a duration! */
+ }
+ .reviews .slide{
+    margin:0;
+    background-color:#4b4b4b;
+ }
+.reviews .slide P{
+    margin: 10px;
+    color: rgb(168, 140, 140);
+    font-size: 1rem;
+ } 
+
+.reviews img{
+    
+    width: 70px;  /*  العرض مساوي للطول */
+    height: 70px;/*  العرض مساوي للطول */
+    border-radius: 50rem;
+}
+.reviews .user{
+    margin: 20px;
+    display: flex;
+}
+.reviews .slide i{
+    color: #00E77F;
+}
+.user_review h3{
+    margin-left:20px;
+    font-size:20px;
+    margin-bottom:7px;
+    color: rgb(34, 16, 16);
+}
+.stars{
+    margin-left:20px;
+}
+.reviews .slide{
+    padding: 0 1.5rem;
+    margin-bottom: 4rem;    
+}
+
+.contact-img img{
+    width: 100%;
+    height: 30rem;
+}
+.contact-img{
+    flex: 1 1 40rem;
+}
+
+.momo {
+    flex: 1 1 40rem;
+}
+.momo form span{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    color:#aaa;
+    margin:10px 0;
+    display: flex;
+}
+.meme{
+    display: flex;
+    gap: 10px;
+}
+input ,select{
+    color: white;
+    font-size:20px;
+    padding: 1rem;
+    border-radius: 7px;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: #4b4646;
+}
+
+
+.gender{
+    margin: 20px 0px;
+    display: flex;
+}
+.gender input{
+   
+    width: 20px;
+    height: 20px;
+
+}
+.gender label{
+    margin: 5px 20px;
+    color: #fff;
+}
+.botton{
+    padding: 15px;
+    background-color: #615a5a;
+    margin: 20px 0px;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    transition: .4s ease;
+}
+.botton a{
+    color: #fff;
+}
+.botton:hover{
+    transform:scale(1.1);
+    background-color: #00E77F; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer .sharen a{
+
+    text-align: center;
+    border-radius:5px;
+    display: block;
+    height: 2.7rem;
+    font-size: 1.5rem;
+    color: #3d3d3d;
+    background-color: rgb(125, 111, 111);
+    margin-top: 10px;
+    width: 2.9rem ;
+    text-align: center;
+    padding: 10px;
+}
+.sharen{
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.footer{
+    background-color: #4a4646;
+}   
+.end{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.fab{
+    margin: 20px;
+} 
+.copyright{
+    padding: 20px;
+    text-transform: uppercase;
+    color: #AAAA;
+    border-top:1px solid #aaa;
+
+}
+.footer .sharen a:hover{
+    background-color: #00E77F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1250px){
+    html{
+        font-size: 80%;
+    }
+
+
+}
+
+
+@media (max-width:1060px){
+    html{
+        font-size: 60%;
+    }
+
+
+}
+
+
+@media (max-width:1010px){
+    html{
+        font-size: 70%;
+    }
+    .teacher .slide img {
+        height:70rem;
+        width: 100%;
+    }
+
+    .main{
+        margin-left: 80px;
+        font-size: 16px;
+        width: 100%;
+    }
+    header{
+        padding: 10px 20px;
+    }
+
+}
+@media (max-width:1000px){
+    html{ font-size:60%;
+
+    }
+
+
+}
+@media (max-width:1020px){
+    html{
+        font-size: 60%;
+
+    }
+    .boxx{
+        display: block;
+        
+
+    }
+    .boxxx{
+        display: block;
+    }
+}
+@media (max-width:600px){
+    html{
+        font-size: 60%;
+    }
+
+    .courses .our-courses{
+        font-size: 30px;
+
+    }
+    .home{
+        padding-top:100px;
+    }
+
+    .mmm{
+        margin-left: 0px;
+        
+    }
+
+    .pp{
+        padding-left:0 ;
+    }
+}
+@media (max-width:525px){
+
+    .main a{
+        display: none;
+    }
+}
+
+@media (max-width:400px){
+    .box-contaner{display: block;}
+    .boxx{
+        display: block;
+    }
+    .boxxx{
+        display: block;
+    }
+    .main a{
+        display: none;
+    }
+}
+
+
